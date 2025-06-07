@@ -4,7 +4,7 @@ class Project {
   Project({this.title, this.description, this.url});
 }
 
-List<Project> demo_projects = [
+List<Project> demoProjects = [
   Project(
     title: 'Aqua Bitcoin',
     url:

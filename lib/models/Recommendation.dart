@@ -1,5 +1,4 @@
-// ignore_for_file: public_member_api_docs, sort_constructors_first
-import 'dart:convert';
+import 'dart:convert' show json;
 
 class Recommendation {
   final String? name;
@@ -60,4 +59,4 @@ class Recommendation {
   int get hashCode => name.hashCode ^ text.hashCode ^ source.hashCode;
 }
 
-final List<Recommendation> demo_recommendations = [];
+final List<Recommendation> demoRecommendations = [];

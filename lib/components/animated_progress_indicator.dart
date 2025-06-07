@@ -31,7 +31,7 @@ class AnimatedCircularProgressIndicator extends StatelessWidget {
                 ),
                 Center(
                   child: Text(
-                    (value * 100).toInt().toString() + "%",
+                    "${(value * 100).toInt()}%",
                     style: Theme.of(context).textTheme.bodyLarge,
                   ),
                 ),
@@ -77,7 +77,7 @@ class AnimatedLinearProgressIndicator extends StatelessWidget {
                   label,
                   style: TextStyle(color: Colors.white),
                 ),
-                Text((value * 100).toInt().toString() + "%"),
+                Text("${(value * 100).toInt()}%"),
               ],
             ),
             SizedBox(height: defaultPadding / 2),

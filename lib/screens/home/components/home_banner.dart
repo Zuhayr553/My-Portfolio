@@ -20,7 +20,7 @@ class HomeBanner extends StatelessWidget {
             "assets/images/bg.jpeg",
             fit: BoxFit.cover,
           ),
-          Container(color: darkColor.withOpacity(0.66)),
+          Container(color: darkColor.withValues(alpha: 0.66)),
           Padding(
             padding: const EdgeInsets.symmetric(horizontal: defaultPadding),
             child: Column(
