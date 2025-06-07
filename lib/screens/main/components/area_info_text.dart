@@ -13,6 +13,7 @@ class AreaInfoText extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    print('wWIDTHHHH ${MediaQuery.of(context).size.width}');
     return Padding(
       padding: const EdgeInsets.only(bottom: defaultPadding / 2),
       child: Row(
@@ -20,9 +21,17 @@ class AreaInfoText extends StatelessWidget {
         children: [
           Text(
             title!,
-            style: TextStyle(color: Colors.white),
+            style: TextStyle(
+              color: Colors.white,
+              fontSize: MediaQuery.of(context).size.width < 1300 ? 12 : 16,
+            ),
           ),
-          Text(text!),
+          Text(
+            text!,
+            style: TextStyle(
+              fontSize: MediaQuery.of(context).size.width < 1300 ? 12 : 16,
+            ),
+          ),
         ],
       ),
     );

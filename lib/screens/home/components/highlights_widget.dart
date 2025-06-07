@@ -16,12 +16,16 @@ class Highlights extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Row(
+      mainAxisSize: MainAxisSize.min,
       children: [
         counter,
         SizedBox(width: defaultPadding / 2),
-        Text(label!,
-            style: Theme.of(context).textTheme.bodySmall!.copyWith(
-                fontSize: Responsive.isMobileLarge(context) ? 8 : 13)),
+        Text(
+          label!,
+          style: Theme.of(context).textTheme.bodySmall!.copyWith(
+                fontSize: Responsive.isMobileLarge(context) ? 8 : 13,
+              ),
+        ),
       ],
     );
   }

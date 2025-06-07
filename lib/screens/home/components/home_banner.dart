@@ -107,47 +107,57 @@ class AnimatedText extends StatelessWidget {
     return AnimatedTextKit(
       animatedTexts: [
         TyperAnimatedText(
-          "Flutter Developer With Almost Three Years Of Experience",
+          "Expert Flutter Developer with 3+ Years of Experience Delivering Production-Ready Apps",
           textStyle: Theme.of(context).textTheme.headlineSmall,
           speed: Duration(milliseconds: 60),
         ),
         TyperAnimatedText(
-          "Over 12 Live Apps On Google and Apple Store",
+          "Built and Launched Over 12 Apps on Google Play and App Store",
           textStyle: Theme.of(context).textTheme.headlineSmall,
           speed: Duration(milliseconds: 60),
         ),
         TyperAnimatedText(
-          "State Management Expertise With Riverpod, Provider and Getx",
+          "Mastered State Management with Riverpod, Bloc, and GetX for Scalable Architectures",
           textStyle: Theme.of(context).textTheme.headlineSmall,
           speed: Duration(milliseconds: 60),
         ),
         TyperAnimatedText(
-          "Using Clean Architecture Principles To Maintain A Scalable, Maintainable, And Testable Codebase.",
+          "Utilized GoRouter and Flutter Hooks to Enhance Routing and Performance",
           textStyle: Theme.of(context).textTheme.headlineSmall,
           speed: Duration(milliseconds: 60),
         ),
         TyperAnimatedText(
-          "Utilized TDD Practices To Ensure Robust And Reliable Code, Improving The Overall Quality And Maintainability Of The Applications.",
+          "Implemented Clean Architecture to Ensure Maintainable and Testable Codebases",
           textStyle: Theme.of(context).textTheme.headlineSmall,
           speed: Duration(milliseconds: 60),
         ),
         TyperAnimatedText(
-          "Developed and integrated label printing functionality within Flutter applications, enabling direct communication with printers using native Kotlin code.",
+          "Integrated Firebase, Supabase, Stripe, and Native SDKs for Complex Features",
           textStyle: Theme.of(context).textTheme.headlineSmall,
           speed: Duration(milliseconds: 60),
         ),
         TyperAnimatedText(
-          "From Creating Beautiful Animations To Implementing In-App Purchases",
+          "Built Localization-Ready Apps Using Flutter Intl (l10n) Supporting Globalization",
           textStyle: Theme.of(context).textTheme.headlineSmall,
           speed: Duration(milliseconds: 60),
         ),
         TyperAnimatedText(
-          "Built Multi Social, E-Commerce, Chat and Entertainment Apps",
+          "Applied TDD and CI/CD to Maintain High-Quality, Production-Ready Code",
           textStyle: Theme.of(context).textTheme.headlineSmall,
           speed: Duration(milliseconds: 60),
         ),
         TyperAnimatedText(
-          "An Individual With A Strong Urge To Learn And Strive",
+          "Specialized in Multi-Platform UI: Mobile, Tablet, Web, and Desktop Using Custom Breakpoints",
+          textStyle: Theme.of(context).textTheme.headlineSmall,
+          speed: Duration(milliseconds: 60),
+        ),
+        TyperAnimatedText(
+          "Hands-on Experience with Native Kotlin/Swift Integration via Platform Channels",
+          textStyle: Theme.of(context).textTheme.headlineSmall,
+          speed: Duration(milliseconds: 60),
+        ),
+        TyperAnimatedText(
+          "Driven Developer with Strong Focus on Performance, Modularity, and Developer Experience",
           textStyle: Theme.of(context).textTheme.headlineSmall,
           speed: Duration(milliseconds: 60),
         ),
